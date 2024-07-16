@@ -1,0 +1,18 @@
+import PropTypes from 'prop-types';
+
+function AgeResult  ({age})  {
+  return (
+    <h4 className="mt-10 text-2xl font-bold dark:text-white" >You are {age.years} years old.
+    </h4>
+  
+  );
+};
+
+AgeResult.propTypes = {
+    age: PropTypes.shape({
+        years: PropTypes.number.isRequired,
+        
+    }),
+};
+
+export default AgeResult;
