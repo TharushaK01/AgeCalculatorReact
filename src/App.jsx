@@ -1,7 +1,7 @@
 import { useState } from "react";
 import AgeCalculatorForm from "./components/AgeCalculatorForm"
 import AgeResult from "./components/AgeResult";
-import { differenceInYears } from "date-fns";
+import { differenceInDays, differenceInYears } from "date-fns";
 
 function App() {
   const [age, setAge] = useState(null);
@@ -10,10 +10,14 @@ function App() {
     const today = new Date();
     const birthDateObj = new Date(birthDate);
     const ageYears = differenceInYears(today, birthDateObj);
-    console.log(ageYears);
+    const ageMonths = differenceInMonths(today, birthDateObj);
+    const ageDays = differenceInDays(today, birthDateObj);
+    
     
     setAge({
       years: ageYears,
+      months: ageMonths,
+      days: ageDays,
     });
   };
 
