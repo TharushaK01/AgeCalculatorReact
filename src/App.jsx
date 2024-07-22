@@ -1,7 +1,7 @@
 import { useState } from "react";
 import AgeCalculatorForm from "./components/AgeCalculatorForm"
 import AgeResult from "./components/AgeResult";
-import { differenceInDays, differenceInYears } from "date-fns";
+import { differenceInDays, differenceInYears, differenceInMonths } from "date-fns";
 
 function App() {
   const [age, setAge] = useState(null);
