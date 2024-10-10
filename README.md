@@ -13,8 +13,12 @@ Calculate your age instantly with our simple, intuitive, and responsive **Age Ca
 ## 🚀 Live Demo
 Check out the live demo [here](#).
 
-## 📸 Screenshot
-![Age Calculator Screenshot](https://via.placeholder.com/800x400.png?text=App+Screenshot)
+## 📸 Video
+
+
+https://github.com/user-attachments/assets/9aface5a-1dc5-4374-b3c1-2b7e62f298bb
+
+
 
 ## 🛠 Tech Stack
 - **ReactJS**: Frontend framework
